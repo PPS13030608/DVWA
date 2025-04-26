@@ -59,3 +59,36 @@ Desde la URL podremos acceder a cualquier fichero aunque esté fuera del directo
 ![image](https://github.com/user-attachments/assets/1a9c9fe8-7121-4383-b1c6-860da1c71064)
 
 **Medium**
+
+Al igual que en Command injection, desde el código de la página se pueden ver las cadenas de carácteres que no se permiten usar.
+
+![image](https://github.com/user-attachments/assets/b89bb83a-2ad8-4104-92aa-969c5c530aea)
+
+![image](https://github.com/user-attachments/assets/748e462e-47b5-4742-a6fe-7233001ed63c)
+
+## FILE UPLOAD
+**Low**
+
+Se subirá un archivo php con el que se podrá utilizar una shell.
+
+![image](https://github.com/user-attachments/assets/adf708c7-63e5-41df-a50a-9906397e8b87)
+
+![image](https://github.com/user-attachments/assets/2d6492e9-5cdc-4689-bf99-b1d555b1bfcf)
+
+![image](https://github.com/user-attachments/assets/aae90941-6ab4-4eae-9698-49fcb0c9189d)
+
+**Medium**
+
+En Medium solo se podrán subir ficheros JPEG o PNG.
+
+![image](https://github.com/user-attachments/assets/1b163a2c-6f52-452b-ad6c-66ccfe44071a)
+
+Lo único que habrá que hacer es cambiar la extensión del fichero a subir.
+
+````
+mv new.php new.php.jpeg
+````
+![image](https://github.com/user-attachments/assets/d19e3f61-aba1-4949-a9ba-e019951855b4)
+
+## INSECURE CAPTCHA
+**Low**
