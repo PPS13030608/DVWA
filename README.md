@@ -5,3 +5,8 @@
 
 ## BRUTE FORCE
 **Low**
+Se utilizará la herramienta Wfuzz, una herramienta de código abierto diseñada para realizar pruebas de seguridad en aplicaciones web mediante técnicas de fuzzing y fuerza bruta.
+
+'''
+asfafsaf
+'''
