@@ -39,9 +39,23 @@ Solo queda utilizar comandos que no estén definidos para prevenir injeccioines 
 ## CSRF
 **Low**
 
-Al cambiar la contraseña, se mostrará en la uri del navegador, pudiendo modificarse directamente desde ahí. 
+Al cambiar la contraseña, se mostrará en la URL del navegador, pudiendo modificarse directamente desde ahí. 
 
 ![image](https://github.com/user-attachments/assets/dbc20a68-9eec-48b6-8819-5e1ee3041893)
 
 ![image](https://github.com/user-attachments/assets/1debde71-6d8a-4917-9af1-3d985cd15c7b)
 
+**Medium**
+
+Utilizaremos una vulnerabilidad XSS para cambiar la contraseña dede una imagen.
+
+![image](https://github.com/user-attachments/assets/4f32faf2-7498-4b26-9016-ea6c8a2831c2)
+
+## FILE INCLUSION
+**Low**
+
+Desde la URL podremos acceder a cualquier fichero aunque esté fuera del directorio principal.
+
+![image](https://github.com/user-attachments/assets/1a9c9fe8-7121-4383-b1c6-860da1c71064)
+
+**Medium**
