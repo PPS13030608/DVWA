@@ -3,4 +3,5 @@
 
 ![image](https://github.com/user-attachments/assets/60423b60-f515-490e-a8ac-90655f6fbb9a)
 
-## Brute Force
+## BRUTE FORCE
+**Low**
