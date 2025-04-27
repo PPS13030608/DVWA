@@ -90,5 +90,24 @@ mv new.php new.php.jpeg
 ````
 ![image](https://github.com/user-attachments/assets/d19e3f61-aba1-4949-a9ba-e019951855b4)
 
-## INSECURE CAPTCHA
+## SQL INJECTION
 **Low**
+
+Una inyección SQL es un tipo de ataque informático en el que un atacante inserta o "inyecta" código malicioso en una consulta SQL a través de una entrada de datos como un formulario o cualquier campo que se comunique con la base de datos.
+
+Observando el código de la página, se ve que se solicita el id del usuario y hace una consulta solicitando el nombre y apellidos de la tabla usuarios. A partir de ahí podremos realizar consultas añadiendo parámetros a la consulta que ya se hace.
+
+![image](https://github.com/user-attachments/assets/003b959a-6a5d-47dd-84ac-95399956bd33)
+
+**Medium**
+
+Para el nivel medium tendremos que insertar las consultas directamente en el código de la página.
+
+![image](https://github.com/user-attachments/assets/2c648dfa-0da6-4d6b-a58f-6a7fafba2f23)
+
+![image](https://github.com/user-attachments/assets/76056d79-d4c9-4c6d-b45c-67bb2514afcc)
+
+## BLIND SQL INJECTION
+**Low**
+
+
